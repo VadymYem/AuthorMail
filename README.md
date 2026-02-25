@@ -1,4 +1,4 @@
-# ✉️ AuthorMail
+# ✉️ AuthorMail(YOU CAN USE SOFTWARE WITH TAG OF ME IN SOURCES CODE)
 
 <div align="center">
 
