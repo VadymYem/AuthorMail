@@ -1,0 +1,33 @@
+# ─── Android згенеровані файли ───────────────────────────────────────────────
+build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ─── Gradle кеш і локальні налаштування ──────────────────────────────────────
+.gradle/
+gradle/wrapper/gradle-wrapper.jar   # генерується командою: gradle wrapper
+local.properties                    # містить шлях до SDK — у кожного свій
+*.properties.local
+
+# ─── Android Studio / IntelliJ IDEA ──────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store                           # macOS сміття
+Thumbs.db                           # Windows сміття
+
+# ─── Keystore — НІКОЛИ не завантажувати! ─────────────────────────────────────
+*.jks
+*.keystore
+*.p12
+release/
+keystore.properties
+
+# ─── Секрети — API ключі, токени ─────────────────────────────────────────────
+secrets.properties
+api_keys.properties
+google-services.json                # якщо містить API ключі Firebase
